@@ -1,0 +1,65 @@
+[
+  {
+    "pairs": 1,
+    "encryption_queries": 2,
+    "trials": 1000,
+    "top1_correct": 4,
+    "top1_rate": 0.004,
+    "top1_wilson_95": [
+      0.0015565881404084308,
+      0.010239556277262253
+    ],
+    "unique_rank1": 4,
+    "unique_rate": 0.004,
+    "unique_wilson_95": [
+      0.0015565881404084308,
+      0.010239556277262253
+    ],
+    "true_in_top_tie": 4,
+    "max_rank_worst": 499,
+    "median_rank_best": 128.0,
+    "median_scoring_seconds": 0.05172369999991133
+  },
+  {
+    "pairs": 2,
+    "encryption_queries": 4,
+    "trials": 1000,
+    "top1_correct": 531,
+    "top1_rate": 0.531,
+    "top1_wilson_95": [
+      0.5000102483912816,
+      0.5617524925826141
+    ],
+    "unique_rank1": 531,
+    "unique_rate": 0.531,
+    "unique_wilson_95": [
+      0.5000102483912816,
+      0.5617524925826141
+    ],
+    "true_in_top_tie": 531,
+    "max_rank_worst": 4,
+    "median_rank_best": 1.0,
+    "median_scoring_seconds": 0.06307674999970914
+  },
+  {
+    "pairs": 3,
+    "encryption_queries": 6,
+    "trials": 1000,
+    "top1_correct": 1000,
+    "top1_rate": 1.0,
+    "top1_wilson_95": [
+      0.996173241514445,
+      1.0
+    ],
+    "unique_rank1": 1000,
+    "unique_rate": 1.0,
+    "unique_wilson_95": [
+      0.996173241514445,
+      1.0
+    ],
+    "true_in_top_tie": 1000,
+    "max_rank_worst": 1,
+    "median_rank_best": 1.0,
+    "median_scoring_seconds": 0.08379329999979745
+  }
+]

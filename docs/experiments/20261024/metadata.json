@@ -1,0 +1,17 @@
+{
+  "checkpoint": "checkpoints/net_r2b01.pt",
+  "checkpoint_sha256": "7e1bd6d6fb073c19691e187e865feb60ba3d13409cf4af34d0ebfedf4415a4f5",
+  "script_sha256": "3b183206309b1f0e05bdeda8c19c3913f5437fa9cc2881e33220825cf4a44d0d",
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "classification_seed": 20261029,
+  "attack_seed": 20261030,
+  "trials": 1000,
+  "max_pairs": 3,
+  "candidate_batch": 4096,
+  "best_state_equals_epoch1_tensors": true,
+  "original_training_seed": 20261024,
+  "original_evaluation_script": "finalize_reproduction.py (local archived version); evaluate_experiments.py is the publishing entry with optional epoch checks."
+}

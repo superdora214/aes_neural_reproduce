@@ -1,0 +1,4 @@
+# Select the CUDA build of torch for your own driver before installing.
+torch>=2.6
+numpy>=1.24
+matplotlib>=3.7

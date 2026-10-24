@@ -1,0 +1,38 @@
+{
+  "arguments": {
+    "rounds": 2,
+    "bytes": "0,1",
+    "train_size": 10000000,
+    "eval_size": 1000000,
+    "test_size": 1000000,
+    "epochs": 20,
+    "batch_size": 1000,
+    "depth": 5,
+    "period": 9,
+    "lr_high": 0.002,
+    "lr_low": 0.0001,
+    "l2": 1e-05,
+    "omit_final_mc": false,
+    "device": "cuda",
+    "outdir": "runs/full_r2_20261024_003417",
+    "seed": 20261024,
+    "save_every_epoch": true
+  },
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "seeds": {
+    "train": 20261024,
+    "validation": 20261025,
+    "test": 20261026,
+    "model": 20261027
+  },
+  "learning_rate_formula": "low + ((n-epoch) % (n+1))/n * (high-low)",
+  "source_sha256": {
+    "train.py": "94393049dc87183ff9a2095da0ca7370605ec1de67f97dc55c723c0a54ac8d44",
+    "src/data/dataset.py": "013cd0c7fd7bb2401afad60a7d7c44b20068e3b88492453bed4a60f31178e7c4",
+    "src/model/distinguisher.py": "2139c91bf9b6b08b41b3e05d833db5be4545df5463a708527a5d9eba8905eb66",
+    "src/aes/aes.py": "c89285cccb1c18dcd9056c3bd67c8d2f3d8e18cffef9e25d4c4aff5eefa03910"
+  }
+}

@@ -1,0 +1,30 @@
+[配置] 轮数=2 取字节=(0, 1) 末轮省略MC=False
+       训练=10000000 验证=1000000 epoch=20 depth=5 设备=cuda
+[数据] 生成耗时 0.8s   Xtr=(10000000, 32) Xva=(1000000, 32)
+[网络] 参数量 21,009
+  epoch  1/20  lr=0.00200  train_loss=0.00427  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (144.6s)
+  epoch  2/20  lr=0.00179  train_loss=0.00199  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (145.9s)
+  epoch  3/20  lr=0.00158  train_loss=0.00198  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (146.9s)
+  epoch  4/20  lr=0.00137  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (155.8s)
+  epoch  5/20  lr=0.00116  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (150.6s)
+  epoch  6/20  lr=0.00094  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (158.8s)
+  epoch  7/20  lr=0.00073  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (149.3s)
+  epoch  8/20  lr=0.00052  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (156.3s)
+  epoch  9/20  lr=0.00031  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (156.5s)
+  epoch 10/20  lr=0.00010  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (145.0s)
+  epoch 11/20  lr=0.00200  train_loss=0.00202  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (141.4s)
+  epoch 12/20  lr=0.00179  train_loss=0.00199  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (137.5s)
+  epoch 13/20  lr=0.00158  train_loss=0.00197  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (139.5s)
+  epoch 14/20  lr=0.00137  train_loss=0.00197  val_loss=0.24837  val_acc=0.7453  TPR=0.4920  TNR=0.9980  (135.3s)
+  epoch 15/20  lr=0.00116  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (138.3s)
+  epoch 16/20  lr=0.00094  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (139.6s)
+  epoch 17/20  lr=0.00073  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (133.1s)
+  epoch 18/20  lr=0.00052  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (139.2s)
+  epoch 19/20  lr=0.00031  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (142.5s)
+  epoch 20/20  lr=0.00010  train_loss=0.00196  val_loss=0.00203  val_acc=0.9980  TPR=1.0000  TNR=0.9959  (143.3s)
+
+[最佳] epoch 1（验证损失最低）  Acc=0.9980  TPR=1.0000  TNR=0.9959
+       TNR 的倒数 ≈ 1/1.0
+[论文对照] 2 轮两字节 Acc 0.9980/TNR 0.9961；2 轮单字节 Acc 0.5136/TNR 0.4628；3 轮两字节 TNR ≈ 1/128
+[模型] runs/full_r2_20261024_003417/net_r2b01.pt
+[独立测试] Acc=0.998054 TPR=1.000000 TNR=0.996100 MSE=0.001940

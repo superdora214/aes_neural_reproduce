@@ -1,0 +1,11 @@
+{
+  "selected_epoch": 1,
+  "samples": 1000000,
+  "seed": 20261026,
+  "accuracy": 0.9980539679527283,
+  "tpr": 1.0,
+  "tnr": 0.9961003065109253,
+  "mse_loss": 0.0019400452729314566,
+  "checkpoint": "net_r2b01.pt",
+  "checkpoint_sha256": "7e1bd6d6fb073c19691e187e865feb60ba3d13409cf4af34d0ebfedf4415a4f5"
+}

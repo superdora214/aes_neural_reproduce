@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# New experiment outputs stay local; curated records are in docs/experiments/.
+runs/
+results/
+*.pt
+!checkpoints/net_r2b01.pt
+*.h5
+*.npy
+*.npz
+*.zip
+.env
+.env.*

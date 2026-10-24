@@ -1,0 +1,51 @@
+{
+  "seed": 20261029,
+  "samples": 1000000,
+  "neural_best": {
+    "samples": 1000000,
+    "tp": 499961,
+    "tn": 498096,
+    "fp": 1943,
+    "fn": 0,
+    "accuracy": 0.998057,
+    "tpr": 1.0,
+    "tnr": 0.9961143030843594,
+    "mse": 0.0019368481589481235
+  },
+  "classical_rule": {
+    "samples": 1000000,
+    "tp": 499961,
+    "tn": 498108,
+    "fp": 1931,
+    "fn": 0,
+    "accuracy": 0.998069,
+    "tpr": 1.0,
+    "tnr": 0.9961383012125055
+  },
+  "neural_rule_disagreements": 12,
+  "uniform_negative_reference_fpr": 0.0038909912109375,
+  "uniform_negative_reference_tnr": 0.9961090087890625,
+  "balanced_uniform_reference_accuracy": 0.9980545043945312,
+  "epoch_14": {
+    "samples": 1000000,
+    "tp": 245673,
+    "tn": 499032,
+    "fp": 1007,
+    "fn": 254288,
+    "accuracy": 0.744705,
+    "tpr": 0.49138432797758225,
+    "tnr": 0.9979861570797478,
+    "mse": 0.24898868799209595
+  },
+  "epoch_15": {
+    "samples": 1000000,
+    "tp": 499961,
+    "tn": 498096,
+    "fp": 1943,
+    "fn": 0,
+    "accuracy": 0.998057,
+    "tpr": 1.0,
+    "tnr": 0.9961143030843594,
+    "mse": 0.0019402867183089256
+  }
+}
